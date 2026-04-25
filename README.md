@@ -102,8 +102,6 @@ The attacker maintained C2 communication by sending periodic requests to the hon
 - Unusual destination (internal server with no legitimate users)
 - Pattern identified as **beaconing behavior**
 
-Screenshot: [screenshots/wireshark-suspicious-traffic.png](screenshots/wireshark-suspicious-traffic.png)
-
 </details>
 
 <details>
@@ -115,8 +113,6 @@ No legitimate user should ever reach this server.
 - Source IP: Compromised employee machine
 - Request type: HTTP GET (periodic)
 - Pattern: Automated, not human-driven
-
-Screenshot: [screenshots/honeypot-access-log.png](screenshots/honeypot-access-log.png)
 
 </details>
 
